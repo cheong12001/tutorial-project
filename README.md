@@ -19,9 +19,10 @@ Whatsapp UI practice
 1. open the preview from file: /objective/whatsapp.png
 2. run the project with: npm start
 3. navigate to the url http://localhost:3033/whatsapp for coding preview
-2. get the data from api with endpoint: "/api/whatsapp"
-3. start coding with the file: /src/components/Page.js
-4. implement the UI shown in the preview file
+4. get the data from api with endpoint: "/api/whatsapp"
+5. get the icon resources from '/public/icon.png'
+6. start coding with the file: /src/components/Page.js
+7. implement the UI shown in the preview file
 
 Flex box tutorial (CSS):
 https://flexboxfroggy.com/
