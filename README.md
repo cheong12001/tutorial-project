@@ -12,7 +12,7 @@ Practice 1: Autocompletion input text box
 6. Show the text box selection when the input box is focused (use CSS property: position)
 7. show loading placeholder when fetch data from the endpoint
 8. display order of name list from the api result
-9. implement the search function of the name list display by typing in the input box
+9. implement the search function of the name list display by typing in the input box (filter the name with keyword in input box)
 10. show no result placeholder when no result is found. 
 
 Practice 2: Whatsapp UI practice
