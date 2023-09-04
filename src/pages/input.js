@@ -1,10 +1,9 @@
+import InputBox from "@/components/InputBox";
+
 const Input = () => {
     return (
         <div>
-            <input
-                placeholder="please type here"
-                style={{ width: 300, height: 35, paddingLeft: 10 }}
-            />
+            <InputBox />
         </div>
     );
 };
