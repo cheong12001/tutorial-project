@@ -6,6 +6,7 @@ const Page = () => {
 
     useEffect(() => {
         const asyncAction = async () => {
+            // api endpoint of /api/data
             const res = await axios.get("/api/data");
             setData(res.data.result);
         };

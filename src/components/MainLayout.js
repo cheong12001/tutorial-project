@@ -1,5 +1,5 @@
 const MainLayout = ({ children }) => {
-  return <div>{children}</div>;
+    return <div style={{ padding: 20 }}>{children}</div>;
 };
 
 export default MainLayout;
