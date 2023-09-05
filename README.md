@@ -10,13 +10,15 @@ Practice 1: Auto-complete input text box
 4. start coding on the file: /src/components/InputBox.js
 5. get api data from endpoint: "/api/data" (use axios library)
 6. use CSS property "position" for the overlay
-7. Show the text selection list when the input box is focused
-8. maximum height of text selection list is 400px. 
-9. show loading placeholder in the text selection list when the data is fetching from the endpoint
+7. Show the text selection list when the search input box is focused
+8. hidden the text selection list when the search input box is not focused
+9. Show full list of data when no text is entered in the search input box.
 10. implement the search function of the name list display by typing in the input box (filter the name with keyword in input box - case in-sensitive)
-11. show no result placeholder when no result is found. 
+11. show loading placeholder in the text selection list when the data is fetching from the endpoint
+12. maximum height of text selection list is 400px. 
+13. show no result placeholder when no result is found. 
 
-Practice 2: Whatsapp UI practice
+Practice 2: Whatsapp UI
 1. open the preview from file: /objective/whatsapp.png
 2. run the project with: npm start
 3. navigate to the url http://localhost:3033/whatsapp for coding preview
