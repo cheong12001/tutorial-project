@@ -7,7 +7,7 @@ export default function handler(req, res) {
                 {
                     name: "Kunal",
                     createdAt: "05/03/2018",
-                    description: "How is your scholarship going on ?",
+                    description: "This is a very long long very long long very long long very long long very long long text",
                     unread: 2,
                 },
                 {
