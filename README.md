@@ -20,11 +20,12 @@ Practice 2: Whatsapp UI practice
 1. open the preview from file: /objective/whatsapp.png
 2. run the project with: npm start
 3. navigate to the url http://localhost:3033/whatsapp for coding preview
-4. get the data from api with endpoint: "/api/whatsapp" (use axios library)
-5. get the icon resources from '/public/icon'
-6. use "flex-box css" to construct the outer and inner layout
-7. Implement loading indicator in the contact list section when fetching api data
-7. start coding with the file: /src/components/Page.js
+4. start coding with the file: /src/components/Page.js
+5. get the data from api with endpoint: "/api/whatsapp" (use axios library)
+6. get the icon resources from '/public/icon'
+7. use "flex-box css" to construct the outer and inner layout
+8. Implement loading indicator in the contact list section when fetching api data
+
 
 Extra practice: Flex box tutorial (CSS):
 https://flexboxfroggy.com/
