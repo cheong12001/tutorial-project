@@ -22,7 +22,7 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <main>Welcome to the tutorial project</main>
+            <div style={{ padding: 20 }}>Welcome to the tutorial project</div>
         </>
     );
 }
