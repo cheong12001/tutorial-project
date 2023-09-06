@@ -4,11 +4,14 @@ import axios from "axios";
 const Page = () => {
     const [data, setData] = useState([]);
 
+    // useEffect to fetch api data from server, result will be set after 2 seconds.
     useEffect(() => {
         const asyncAction = async () => {
-            // api endpoint of /api/data
-            const res = await axios.get("/api/data");
-            setData(res.data.result);
+            const res = await fetch("/api/whatsapp");
+            if (res.ok) {
+                const data = await res.json();
+                setData(data.result);
+            }
         };
 
         asyncAction();
