@@ -1,8 +1,6 @@
 import Link from "next/link";
 
 export default function Home() {
-    let count = 0;
-
     const practices = [
         {
             title: "Auto-complete input box exercise",
@@ -18,11 +16,11 @@ export default function Home() {
         <div style={{ padding: 20 }}>
             Welcome to the tutorial project
             <div>
-                {practices.map((item) => {
+                {practices.map((item, index) => {
                     return (
                         <div key={item.url} style={{ marginTop: 20 }}>
                             <Link href={item.url}>
-                                {++count}. {item.title}
+                                {++index}. {item.title}
                             </Link>
                         </div>
                     );

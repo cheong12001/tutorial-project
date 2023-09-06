@@ -19,7 +19,7 @@ const Input = () => {
             </div>
 
             <div style={{ marginTop: 300 }}>
-                Preview Result:
+                Objective:
                 <div style={{ width: "95vh", maxWidth: 1000 }}>
                     <img
                         alt={"preview"}

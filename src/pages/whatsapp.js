@@ -6,7 +6,7 @@ export default function Home() {
             <Page />
 
             <div style={{ marginTop: 80 }}>
-                Preview Result:
+                Objective:
                 <div style={{ width: "95vh", maxWidth: 300 }}>
                     <img
                         alt={"preview"}
