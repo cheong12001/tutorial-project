@@ -8,7 +8,7 @@ Practice 1: Auto-complete input text box
 2. run the project with: npm start
 3. navigate to the url http://localhost:3033/input for code preview
 4. start coding on the file: /src/components/InputBox.js
-5. get api data from endpoint: "/api/data" (use axios library)
+5. get api data from endpoint: "/api/data" (use fetch request api)
 6. use CSS property "position" for the overlay
 7. Show the text selection list when the search input box is focused
 8. hidden the text selection list when the search input box is not focused
@@ -23,7 +23,7 @@ Practice 2: Whatsapp UI
 2. run the project with: npm start
 3. navigate to the url http://localhost:3033/whatsapp for coding preview
 4. start coding with the file: /src/components/Page.js
-5. get the data from api with endpoint: "/api/whatsapp" (use axios library)
+5. get the data from api with endpoint: "/api/whatsapp" (use fetch request api)
 6. get the icon resources from '/public/icon'
 7. use "flex-box css" to construct the outer and inner layout
 8. Implement loading indicator in the contact list section when fetching api data
