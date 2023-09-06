@@ -9,7 +9,8 @@ const InputBox = () => {
             const res = await fetch("/api/data");
 
             if (res.ok) {
-                setData(await res.json().result);
+                const { result } = await res.json();
+                setData(result);
             }
         };
 

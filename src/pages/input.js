@@ -1,6 +1,7 @@
 import InputBox from "@/components/InputBox";
 
 const Input = () => {
+
     return (
         <div
             style={{

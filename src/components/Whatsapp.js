@@ -8,15 +8,17 @@ const Page = () => {
         const asyncAction = async () => {
             const res = await fetch("/api/whatsapp");
             if (res.ok) {
-                const data = await res.json();
-                setData(data.result);
+                const { result } = await res.json();
+                setData(result);
             }
         };
 
         asyncAction();
     }, []);
 
-    return <div style={{ width: "95vh", maxWidth: 300 }}>Your Code here...</div>;
+    return (
+        <div style={{ width: "95vh", maxWidth: 300 }}>Your Code here...</div>
+    );
 };
 
 export default Page;
