@@ -1,12 +1,24 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import MainLayout from "@/components/MainLayout";
 import Page from "@/components/Page";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
-    return <Page />;
+    return (
+        <div>
+            <Page />
+
+            <div style={{ marginTop: 80 }}>
+                Preview Result:
+                <div style={{ width: "95vh", maxWidth: 300 }}>
+                    <img
+                        alt={"preview"}
+                        style={{
+                            width: "100%",
+                            objectFit: "contain",
+                            marginTop: 10,
+                        }}
+                        src={"/preview/whatsapp.png"}
+                    />
+                </div>
+            </div>
+        </div>
+    );
 }

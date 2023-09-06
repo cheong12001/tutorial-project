@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
 
 const Page = () => {
     const [data, setData] = useState([]);
@@ -17,7 +16,7 @@ const Page = () => {
         asyncAction();
     }, []);
 
-    return <div>Test Layout</div>;
+    return <div style={{ width: "95vh", maxWidth: 300 }}>Your Code here...</div>;
 };
 
 export default Page;
