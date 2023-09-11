@@ -1,6 +1,6 @@
 import Page from "@/components/Whatsapp";
 
-export default function Home() {
+const Home = () => {
     return (
         <div>
             <Page />
@@ -21,4 +21,6 @@ export default function Home() {
             </div>
         </div>
     );
-}
+};
+
+export default Home;

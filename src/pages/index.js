@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+const IndexPage = () => {
     const practices = [
         {
             title: "Auto-complete input box exercise",
@@ -28,4 +28,6 @@ export default function Home() {
             </div>
         </div>
     );
-}
+};
+
+export default IndexPage;

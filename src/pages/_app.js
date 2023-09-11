@@ -2,7 +2,7 @@ import MainLayout from "@/components/MainLayout";
 import "@/styles/globals.css";
 import Head from "next/head";
 
-export default function App({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
     return (
         <>
             <Head>
@@ -13,4 +13,6 @@ export default function App({ Component, pageProps }) {
             </MainLayout>
         </>
     );
-}
+};
+
+export default App;
