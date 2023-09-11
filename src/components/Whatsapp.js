@@ -26,11 +26,6 @@ const Whatsapp = () => {
             }}
         >
             <div>Your Code here...</div>
-
-            <div style={{ height: 100, width: "100%", background: "green" }} />
-            <div style={{ height: 100, width: "100%", background: "green" }} />
-            <div style={{ height: 100, width: "100%", background: "green" }} />
-            <div style={{ height: 100, width: "100%", background: "green" }} />
         </div>
     );
 };
