@@ -21,16 +21,16 @@ const Input = () => {
 
             <div style={{ marginTop: 300 }}>
                 Objective:
-                <div style={{ width: "95vh", maxWidth: 1000 }}>
-                    <img
-                        alt={"preview"}
-                        style={{
-                            width: "100%",
-                            objectFit: "contain",
-                            marginTop: 10,
-                        }}
-                        src={"/preview/input-complete.png"}
-                    />
+                <div style={{ width: "95vw", maxWidth: 1000 }}>
+                        <img
+                            alt={"preview"}
+                            style={{
+                                width: "100%",
+                                objectFit: "contain",
+                                marginTop: 10,
+                            }}
+                            src={"/preview/input-complete.png"}
+                        />
                 </div>
             </div>
         </div>

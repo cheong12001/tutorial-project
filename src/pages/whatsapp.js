@@ -7,7 +7,7 @@ const Home = () => {
 
             <div style={{ marginTop: 80 }}>
                 Objective:
-                <div style={{ width: "95vh", maxWidth: 300 }}>
+                <div style={{ width: "95vw", maxWidth: 300 }}>
                     <img
                         alt={"preview"}
                         style={{
