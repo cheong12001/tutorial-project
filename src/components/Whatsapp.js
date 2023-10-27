@@ -3,13 +3,19 @@ import { useEffect, useState } from "react";
 const Whatsapp = () => {
     const [data, setData] = useState([]);
 
+    console.log("%c 151633 Whatsapp.js data", "background: green", data);
+
     // useEffect to fetch api data from server, result will be set after 2 seconds.
     useEffect(() => {
         const asyncAction = async () => {
-            const res = await fetch("/api/whatsapp");
-            if (res.ok) {
-                const { result } = await res.json();
-                setData(result);
+            try {
+                const res = await fetch("/api/whatsapp");
+                if (res.ok) {
+                    const { result } = await res.json();
+                    setData(result);
+                }
+            } catch (error) {
+                console.log(error);
             }
         };
 
@@ -25,7 +31,11 @@ const Whatsapp = () => {
                 flexDirection: "column",
             }}
         >
-            <div>Your Code here...</div>
+            <div>
+                <div
+                    style={{ width: 200, height: 500, background: "#dcdcdc" }}
+                ></div>
+            </div>
         </div>
     );
 };
