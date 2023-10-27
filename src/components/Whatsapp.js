@@ -32,9 +32,7 @@ const Whatsapp = () => {
             }}
         >
             <div>
-                <div
-                    style={{ width: 200, height: 500, background: "#dcdcdc" }}
-                ></div>
+                <div>Your Code here...</div>
             </div>
         </div>
     );
