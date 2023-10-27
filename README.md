@@ -1,5 +1,5 @@
 Start the tutorial project
-1. Install dependency by: npm i
+1. Install dependency by: yarn
 2. Start the project with command: npm start
 3. Open the dev preview: http://localhost:3033
 
